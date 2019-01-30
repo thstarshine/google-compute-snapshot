@@ -341,7 +341,7 @@ main()
     setScriptOptions "$@"
 
     # get current datetime
-    DATE_TIME="$(date "+%s")"
+    DATE_TIME="$(date "+%Y%m%d")"
 
     # get deletion date for existing snapshots
     DELETION_DATE=$(getSnapshotDeletionDate "${OLDER_THAN}")
