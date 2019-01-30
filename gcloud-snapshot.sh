@@ -2,8 +2,7 @@
 #
 # Take snapshots of Google Compute Engine disks
 
-export PATH=$PATH:/usr/local/bin/:/usr/bin
-
+export PATH=$PATH:/usr/local/bin/:/usr/bin:/snap/bin
 
 ###############################
 ##                           ##
